@@ -55,7 +55,7 @@ class GuttersGrid extends React.Component {
           </Grid>
         </Grid>
         <Grid item xs={12}>
-          <Grid container className={classes.demo2} justify="center" spacing={Number(spacing)}>
+          <Grid container className={classes.demo3} justify="center" spacing={Number(spacing)}>
             {[18, 19, 20,21,22,23].map(value => (
               <Grid key={value} item>
                 <Paper className={classes.paper} />
