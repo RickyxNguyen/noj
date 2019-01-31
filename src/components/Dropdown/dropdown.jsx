@@ -5,8 +5,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const options = [
-  'preset 1',
-  'preset 2',
+  'keyboard for the blind',
+  'music board',
   'preset 3'
 ];
 
@@ -39,6 +39,9 @@ class LongMenu extends React.Component {
         >
           <MoreVertIcon />
         </IconButton>
+        <button>
+        login
+        </button>
         <Menu
           id="long-menu"
           anchorEl={anchorEl}
