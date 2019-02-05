@@ -3,6 +3,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import "./dropdown.css";
 
 const options = [
   'keyboard for the blind',
@@ -30,7 +31,7 @@ class LongMenu extends React.Component {
     const open = Boolean(anchorEl);
 
     return (
-      <div>
+      <div id = "presets">
         <IconButton
           aria-label="More"
           aria-owns={open ? 'long-menu' : undefined}
@@ -39,6 +40,7 @@ class LongMenu extends React.Component {
         >
           <MoreVertIcon />
         </IconButton>
+
         <button>
         login
         </button>

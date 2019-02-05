@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
 import Header from './components/Header/header';
-import Dropdown from './components/Dropdown/dropdown';
+import Dropdown from './components/Dropdown/dropdown.js';
 import Keyboard from './components/Keyboard/keyboard';
 import SoundControl from './components/SoundControls/soundcontrols';
 
 
 
 
+
 import './App.css';
+
 
 class App extends Component {
   render() {
