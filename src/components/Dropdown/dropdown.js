@@ -3,6 +3,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Button from '@material-ui/core/Button';
+
 import "./dropdown.css";
 
 const options = [
@@ -41,9 +43,9 @@ class LongMenu extends React.Component {
           <MoreVertIcon />
         </IconButton>
 
-        <button>
-        login
-        </button>
+        <Button variant="contained">
+        Login
+      </Button>
         <Menu
           id="long-menu"
           anchorEl={anchorEl}
