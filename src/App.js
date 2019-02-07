@@ -8,7 +8,6 @@ import SoundControl from './components/SoundControls/soundcontrols.js';
 
 
 
-
 import './App.css';
 
 

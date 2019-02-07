@@ -1,11 +1,14 @@
 import React from 'react';
 import "./keyboard.css"
 import "./action.js"
+
+
 function Keyboard(){
  
   return ( 
-      
+    
     <section>
+         
     <div id="focus" className="keys">
             <br/>
             <br/>
@@ -100,6 +103,7 @@ function Keyboard(){
         </div>
         </div>
     </div>
+    
     <div>
         <audio data-key={81} src="./assets/sound bytes/I gotta have a chance man.mp3" />
         <audio data-key={87} src="./assets/sound bytes/copy that.mp3" />
@@ -133,6 +137,7 @@ function Keyboard(){
 
 
       </div>
+
     </section>
 );
 }
