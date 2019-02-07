@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './components/Header/header';
 import Dropdown from './components/Dropdown/dropdown.js';
 import Keyboard from './components/Keyboard/keyboard.js';
-import SoundControl from './components/SoundControls/soundcontrols';
+import SoundControl from './components/SoundControls/soundcontrols.js';
 
 
 
@@ -20,7 +20,6 @@ class App extends Component {
        <Header/>
        <Keyboard/>
        <SoundControl/>
-
      </React.Fragment>
      
     );
