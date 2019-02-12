@@ -112,7 +112,7 @@ function Keyboard(){
         <audio data-key={84} src="./assets/sound bytes/i dont know what im doing.mp3" />
         <audio data-key={89} src="./assets/sound bytes/i just showed you man.mp3" />
         <audio data-key={85} src="./assets/sound bytes/i've never tried this.mp3" />
-        <audio data-key={72} src="./assets/sound bytes/it was a big one.mp3" />
+        <audio data-key={73} src="./assets/sound bytes/it was a big one.mp3" />
         <audio data-key={79} src="./assets/sound bytes/it's a rule.mp3" />
         <audio data-key={80} src="./assets/sound bytes/learn less.mp3" />
         <audio data-key={65} src="./assets/sound bytes/learn more.mp3" />
