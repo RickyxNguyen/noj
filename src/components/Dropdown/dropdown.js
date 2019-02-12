@@ -4,18 +4,14 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
+// import { Link } from 'react-router-dom';
 
 import "./dropdown.css";
 
-const options = [
-  'keyboard for the blind',
-  'music board',
-  'preset 3'
-];
 
-const ITEM_HEIGHT = 48;
 
-class LongMenu extends React.Component {
+export default class Dropdown extends React.Component {
+  
   state = {
     anchorEl: null,
   };
@@ -47,27 +43,16 @@ class LongMenu extends React.Component {
         Login
       </Button>
      
-        <Menu
-          id="long-menu"
-          anchorEl={anchorEl}
-          open={open}
-          onClose={this.handleClose}
-          PaperProps={{
-            style: {
-              maxHeight: ITEM_HEIGHT * 4.5,
-              width: 200,
-            },
-          }}
-        >
-          {options.map(option => (
-            <MenuItem key={option} selected={option === 'Pyxis'} onClick={this.handleClose}>
-              {option}
-            </MenuItem>
-          ))}
+        <Menu id="simple-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={this.handleClose}>
+        <MenuItem onClick={this.handleClose}>noj
+        </MenuItem>
+        <MenuItem onClick={this.handleClose}>
+        atoz
+        </MenuItem>
+        <MenuItem onClick={this.handleClose}>music</MenuItem>
         </Menu>
       </div>
     );
   }
 }
 
-export default LongMenu;

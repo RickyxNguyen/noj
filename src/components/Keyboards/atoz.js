@@ -3,7 +3,7 @@ import "./keyboard.css"
 import "./action.js"
 
 
-function Keyboard(){
+const AtoZ = () =>{
  
   return ( 
     
@@ -105,32 +105,32 @@ function Keyboard(){
     </div>
     
     <div>
-        <audio data-key={81} src="./assets/sound bytes/I gotta have a chance man.mp3" />
-        <audio data-key={87} src="./assets/sound bytes/copy that.mp3" />
-        <audio data-key={69} src="./assets/sound bytes/do it now.mp3" />
-        <audio data-key={82} src="./assets/sound bytes/dont try to figure out how this works cuz it doesn't work.mp3" />
-        <audio data-key={84} src="./assets/sound bytes/i dont know what im doing.mp3" />
-        <audio data-key={89} src="./assets/sound bytes/i just showed you man.mp3" />
-        <audio data-key={85} src="./assets/sound bytes/i've never tried this.mp3" />
-        <audio data-key={73} src="./assets/sound bytes/it was a big one.mp3" />
-        <audio data-key={79} src="./assets/sound bytes/it's a rule.mp3" />
-        <audio data-key={80} src="./assets/sound bytes/learn less.mp3" />
-        <audio data-key={65} src="./assets/sound bytes/learn more.mp3" />
-        <audio data-key={83} src="./assets/sound bytes/obviously.mp3" />
-        <audio data-key={68} src="./assets/sound bytes/oh my god javascript.mp3" />
-        <audio data-key={70} src="./assets/sound bytes/power of react router.mp3" />
-        <audio data-key={71} src="./assets/sound bytes/start it up.mp3" />
-        <audio data-key={72} src="./assets/sound bytes/start me up.mp3" />
-        <audio data-key={74} src="./assets/sound bytes/there's some messed up stuff here.mp3" />
-        <audio data-key={75} src="./assets/sound bytes/this didn't work the first time.mp3" />
-        <audio data-key={76} src="./assets/sound bytes/uhh.mp3" />
-        <audio data-key={90} src="./assets/sound bytes/you mean my friend monster.mp3" />
-        <audio data-key={88} src="./assets/sound bytes/cmon.mp3" />
-        <audio data-key={67} src="./assets/sound bytes/kill me.mp3" />
-        <audio data-key={86} src="./assets/sound bytes/do it.mp3" />
-        <audio data-key={66} src="./assets/sound bytes/do it now i am here what are you waiting for.mp3" />
-        <audio data-key={78} src="./assets/sound bytes/get back to da chopper.mp3" />
-        <audio data-key={77} src="./assets/sound bytes/nonsense.mp3" />
+        <audio data-key={81} src="./assets/atoz/q.wav" />
+        <audio data-key={87} src="./assets/atoz/w.wav" />
+        <audio data-key={69} src="./assets/atoz/e.wav" />
+        <audio data-key={82} src="./assets/atoz/r.wav" />
+        <audio data-key={84} src="./assets/atoz/t.wav" />
+        <audio data-key={89} src="./assets/atoz/y.wav" />
+        <audio data-key={85} src="./assets/atoz/u.wav" />
+        <audio data-key={73} src="./assets/atoz/i.wav" />
+        <audio data-key={79} src="./assets/atoz/o.wav" />
+        <audio data-key={80} src="./assets/atoz/p.wav" />
+        <audio data-key={65} src="./assets/atoz/a.wav" />
+        <audio data-key={83} src="./assets/atoz/s.wav" />
+        <audio data-key={68} src="./assets/atoz/d.wav" />
+        <audio data-key={70} src="./assets/atoz/f.wav" />
+        <audio data-key={71} src="./assets/atoz/g.wav" />
+        <audio data-key={72} src="./assets/atoz/h.wav" />
+        <audio data-key={74} src="./assets/atoz/j.wav" />
+        <audio data-key={75} src="./assets/atoz/k.wav" />
+        <audio data-key={76} src="./assets/atoz/l.wav" />
+        <audio data-key={90} src="./assets/atoz/z.wav" />
+        <audio data-key={88} src="./assets/atoz/x.wav" />
+        <audio data-key={67} src="./assets/atoz/c.wav" />
+        <audio data-key={86} src="./assets/atoz/v.wav" />
+        <audio data-key={66} src="./assets/atoz/b.wav" />
+        <audio data-key={78} src="./assets/atoz/n.wav" />
+        <audio data-key={77} src="./assets/atoz/m.wav" />
 
 
 
@@ -141,4 +141,4 @@ function Keyboard(){
     </section>
 );
 }
-export default Keyboard;
+export default AtoZ;
