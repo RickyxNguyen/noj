@@ -5,14 +5,18 @@ import Dropdown from './components/Dropdown/dropdown.js';
 import Noj from './components/Keyboards/noj';
 import AtoZ from './components/Keyboards/atoz';
 import Music from './components/Keyboards/music';
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Login from './components/Login/Login'
+import Logout from './components/Login/Logout'
+import Register from './components/Login/Register'
+
 
 
 
 export default class App extends Component {
-  render() {
+  
+  render() {  
     return (
       <React.Fragment>
        <Dropdown/>
@@ -24,10 +28,7 @@ export default class App extends Component {
           <Route exact path="/music" component={Music} />
       </Switch>
       </BrowserRouter>
-     </React.Fragment>
-
-     
-     
+     </React.Fragment>    
     );
   }
 }

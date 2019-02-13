@@ -59,9 +59,9 @@ class Dropdown extends React.Component {
      
         <Menu id="simple-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={this.handleClose}>
         
-        <MenuItem onClick={this.menuReload} component={MyLink1} >noj</MenuItem>    
-        <MenuItem onClick={this.menuReload} component={MyLink2} >atoz</MenuItem>    
-        <MenuItem onClick={this.menuReload} component={MyLink3} >music</MenuItem>    
+        <MenuItem onClick={this.menuReload} component={MyLink1} >NOJ</MenuItem>    
+        <MenuItem onClick={this.menuReload} component={MyLink2} >AtoZ</MenuItem>    
+        <MenuItem onClick={this.menuReload}component={MyLink3} >MUSIC</MenuItem>    
     
   
         </Menu>
