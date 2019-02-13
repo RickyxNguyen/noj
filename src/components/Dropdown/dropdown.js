@@ -29,11 +29,14 @@ class Dropdown extends React.Component {
 
   handleClose = () => {
     this.setState({ anchorEl: null });
-    window.location.reload();
 
   };
 
- 
+  menuReload = () => {
+    this.setState({ anchorEl: null });
+    window.location.reload();
+
+  };
 
   render() {
     const { anchorEl } = this.state;
@@ -56,9 +59,9 @@ class Dropdown extends React.Component {
      
         <Menu id="simple-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={this.handleClose}>
         
-        <MenuItem component={MyLink1} >noj</MenuItem>    
-        <MenuItem component={MyLink2} >atoz</MenuItem>    
-        <MenuItem component={MyLink3} >music</MenuItem>    
+        <MenuItem onClick={this.menuReload} component={MyLink1} >noj</MenuItem>    
+        <MenuItem onClick={this.menuReload} component={MyLink2} >atoz</MenuItem>    
+        <MenuItem onClick={this.menuReload} component={MyLink3} >music</MenuItem>    
     
   
         </Menu>

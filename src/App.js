@@ -22,7 +22,6 @@ export default class App extends Component {
           <Route exact path="/" component={Noj} />
           <Route exact path="/atoz" component={AtoZ} />
           <Route exact path="/music" component={Music} />
-
       </Switch>
       </BrowserRouter>
      </React.Fragment>
