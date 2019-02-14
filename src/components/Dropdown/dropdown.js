@@ -34,7 +34,9 @@ class Dropdown extends React.Component {
 
   menuReload = () => {
     this.setState({ anchorEl: null });
-    window.location.reload();
+    setTimeout(()=> window.location.reload(), 500)
+
+    
 
   };
 
